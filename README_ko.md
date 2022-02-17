@@ -14,7 +14,9 @@ methinks iOS SDK는 최소 iOS 10 또는 상위 버전에서 작동합니다.
 ```
 https://github.com/methinksBot/swift-methinks
 ```
-[여기](https://github.com/methinksBot/swift-methinks) 에서 보다 자세한 정보르 참고해 주십시오.
+
+![image1](Assets/1.png)
+![image2](Assets/2.png)
 
 
 ## 기본 셋업

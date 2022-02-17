@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "swift-methinks",
-            targets: ["swift-methinks"]),
+            targets: ["methinksiOS"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -18,11 +18,11 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "swift-methinks",
-            dependencies: []),
-        .testTarget(
-            name: "swift-methinksTests",
-            dependencies: ["swift-methinks"]),
+        
+//        .target(
+//            name: "swift-methinks",
+//            dependencies: []),
+        .binaryTarget(name: "methinksiOS", path: "./Sources/methinksSDK-iOS.xcframework")
+        
     ]
 )

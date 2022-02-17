@@ -14,6 +14,10 @@ Please add following URL for Swift Package URL
 https://github.com/methinksBot/swift-methinks
 ```
 
+![image1](Assets/1.png)
+<br>
+![image2](Assets/2.png)
+
 ## Setup
 
 Before move on, please make sure you get the `clientKey` and `productKey` from [methinks](https://www.methinks.io).

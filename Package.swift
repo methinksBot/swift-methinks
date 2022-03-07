@@ -8,11 +8,11 @@ let package = Package(
     products: [
         .library(
             name: "swift-methinks",
-            targets: ["methinksiOS"]),
+            targets: ["MTKAppInsight"]),
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "methinksiOS", path: "./Sources/methinksSDK-iOS.xcframework")
+        .binaryTarget(name: "MTKAppInsight", path: "./Sources/MTKAppInsight.xcframework")
         
     ]
 )
